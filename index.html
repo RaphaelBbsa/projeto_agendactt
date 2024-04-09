@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!-- define oo tipo de documento html5  -->
+<html lang="pt-br"> <!-- elemtento raiz da página html -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scales=1.0">
+        <title>Agenda de contatos de Raphael</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+<div class="container">
+    <header>
+        <img src="./imagens/logo_ctt.png" alt="emoji de contatos">
+        <h1>Sua agenda de contatos</h1>
+    </header>
+    <form id="formulario">
+        <input type="text" id="nome_contato" required placeholder="Nome do contato"/>
+        <input type="number" id="numero_ctt" required placeholder="Telefone" />
+        <button type="submit">Adicionar +</button>
+    </form>
+    <table cellspacing = "0"> 
+        <tbody>
+            <tr>
+            <td> Nome</td> <!-- td é usado para as coisas reais da tabela como texto, número. já o th foi feito para cabeçalhos -->
+            <td> Contato</td>
+        </tr>
+     </tbody>
+     </table>
+</div>
+    </body>
+</html>
