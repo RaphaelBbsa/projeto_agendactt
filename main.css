@@ -56,7 +56,12 @@ form button {
 }
 
 table {
-    width: 30%;
+    width: 50%;
+    max-width: 500px;
+    margin-top: 16px;
+}
+table th {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 table td {
